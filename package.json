@@ -1,0 +1,33 @@
+{
+  "name": "generator-frisby",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "marcin-wosinek/generator-frisby",
+  "author": {
+    "name": "Marcin Wosinek",
+    "email": "marcin.wosinek@gmail.com",
+    "url": "https://github.com/marcin-wosinek"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.9",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
